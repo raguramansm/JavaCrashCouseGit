@@ -1,0 +1,29 @@
+1. What is an inheritance
+	Process of acquiring the properties (Data + Methods)
+	
+	The one which takes - Child class
+	The one which gives - Parent class
+	
+	Note:
+	A child can be parent of another child class
+	A parent can be child of another parent class
+
+2. How to inherit in Java
+	Using extends keyword (IS-A relationship)
+
+3. Is a Relationship explained
+	A class IS-A parent of B class
+	B class IS-A parent of A class
+	
+4. Types of inheritance
+	Single: A->B
+	Multilevel: A->B->C
+	Multiple: A and B ->C (Not supported in JAVA)
+	Hierarchical: A->B, A->C, A->D
+
+5. Access modifiers in Java: default, private, protected, public.
+	public - From anywhere in the project
+	protected - Within Same class, same package, subclass in different package
+	default - When no access modifier is declared. Same class and same package
+	private - Only within the class
+	

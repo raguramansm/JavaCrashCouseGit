@@ -1,0 +1,29 @@
+Static keyword plays a vital role in Java programming. Understanding of the static keyword will help us a lot while coding.
+Static can be used with Class, method, variables and even with a block of code.
+
+Static Method:
+---------------
+Points to remember about static keyword: 
+1)can be used with class, variable, method and block.
+2)belong to the class instead of a specific instance.
+this means if you make a member static, you can access it without an object.
+
+NOTE: We can call the static method from the non-static method but not otherwise
+
+Static block:
+--------------
+1)initializing the static variables.
+2)gets executed when the class is loaded in memory.
+3)can have multiple Static blocks, execution in the written order
+
+Static Variables
+-----------------
+1)common to all the instances (or objects) of the class because 
+it is a class level variable.
+2)only a single copy of the static variable is created and 
+shared among all the instances of the class.
+
+Static Class:
+--------------
+A class can be made static only if it is a nested class.
+We don't need this. Because we won't use the nested class in most of the real-time programming with respect to test automation. 

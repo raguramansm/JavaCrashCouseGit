@@ -1,0 +1,18 @@
+1. What exactly is String?
+	An object that represents sequence of char values
+	e.g: "Ragu" is String of 4 char
+	
+2. In Java, String is a immutable object which means, it is constant and can't be changed once it is created.
+
+3. java.lang.String class implements -> CharSeqence, Serializable, Comparable interfaces.
+
+4. How to create a String
+	1. By String literal - using double quotes. Ex: String name = "Ragu"
+	2. By new keyword - String name = new String("Ragu")
+	
+5. StringBuffer - 
+	can be created only with new keyword.
+	Only difference with String is mutable.
+
+6. StringBuilder - 
+	Non-synchronized. Only difference with StringBuffer. 

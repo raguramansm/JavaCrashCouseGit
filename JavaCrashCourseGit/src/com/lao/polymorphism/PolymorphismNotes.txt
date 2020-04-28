@@ -1,0 +1,22 @@
+Polymorphism is one of the pillars of Object Oriented Programming. 
+
+1. What is Polymorphism? 
+	Polymorphism is the capability of a method(function) to do different things based on the object that it is acting upon. 
+
+2.Types of Polymorphism
+	a. Static/Compile/early binding (Method Overloading)
+	b. Dynamic/RunTime/late binding (Method Overriding)
+
+3. Overloading vs Overriding
+
+	Overloading:
+	1. Method name should be same
+	2. If there is any change in the data type or number of arguments or order of arguments, then it is overloading
+	3. happens in the compile time
+	4. done in same class
+	
+	Overriding:
+	1. Method name should be same
+	2. No change in anything
+	3. happens in run time
+	4. done in parent/child relationship

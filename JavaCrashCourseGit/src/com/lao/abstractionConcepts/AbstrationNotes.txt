@@ -1,0 +1,29 @@
+1. what is an abstraction
+	Hiding the implementation details
+	
+2. How can we achieve ABSTRACTION?
+	1. Abstract class (0 to 100% abstraction)
+	2. Interface (100% abstraction)
+	
+3. Abstract class
+	1. If a method is unimplemented, then the method should be declared as abstract
+	2. If a class is having one abstract method, then it should be declared as abstract
+	3. It may or may not have implementation methods
+	4. A class can be declared as abstract, even if it does not have abstract methods. 
+	5. If the class is abstract, object can't be created.
+	6. If a child does not implement all the abstract methods of its parent class, then the child class must be declared as abstract as well.
+
+4. Interface 
+	Interface is like a class, but not a class. Why?:
+	An interface can have multiple variables and methods like a class.
+	But variables are declared as public, static, final by defaults.
+	and methods are declared as abstract by default.
+	
+	Why interface is needed - To achieve absolute abstraction (100% abstraction) and multiple inheritance
+	Class can use interface using implements keyword
+	Interface can use another interface using extends keyword
+		
+5. Difference between an Interface and Class - See above points.
+
+6. Encapsulation
+	Process of binding data and methods into a single unit 

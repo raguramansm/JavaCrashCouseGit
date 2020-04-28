@@ -1,0 +1,10 @@
+1. What are the Exception and Error
+	Exception - Unexpected event or undesirable event during the execution of the program. It can be handled in the code.
+	Error - is not exception. Can't be handled Ex: Computer is running out of space, Virtual machine error, Assertion error.. etc
+2. Checked and unchecked exceptions
+	Checked - Compile time exception
+	Unchecked - Run time exception
+3. Try Catch block - Exception code should be inside the try block
+4. Finally block in Java - Not mandatory. This will be executed irrespective of exceptions occurs or not. 
+	Ex: Closing connections, Server, Stream.. etc
+5. try-catch-finally with an example

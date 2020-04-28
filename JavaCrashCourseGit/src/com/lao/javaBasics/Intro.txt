@@ -1,0 +1,47 @@
+Java Crash course | 01 | Introduction | How much Java do we need for Automation | Automation
+
+1.	Project, Packages, Class
+2.	Primitive data types, Wrapper Classes
+3.	Methods (Functions), Constructors (Special functions)
+4.	Return Types – void, data types
+5.	Conditional statements and Looping
+6.	Static concepts
+7.	Inheritance (Access Modifiers)
+8.	Abstraction (Interface & Abstract class), encapsulation
+9.	Polymorphism (Overloading, Overriding)
+10.	String, StringBuffer, StringBuilder
+11.	Exception Handling 
+12.	Java Collection Framework
+	List, Set, Map
+
+------------------------------------------------------------------------------------------------------------------------------
+
+-	Project 
+		Packages -> Collection of similar classes. Should be camelCase.
+			Class – Is a single entity which consist of data and methods
+					{data + methods (function)}
+			Java naming conventions: https://www.geeksforgeeks.org/java-naming-conventions/
+
+- 	Variables - Containers for storing values
+		syntax: data_type variable = value;
+
+-	int, double, float, char, long, byte, short – primitive data types
+		Integer types: int, long, byte, short 
+		Floating point types: float, double
+-	String, Array, Class - NonPrimitive data types
+-	Integer, Double, Float, Character, Long, Byte – Wrapper classes
+		Objects can be created with these wrapper classes
+-	Object creation syntax:
+		ClassName object = new ClassName();
+		
+------------------------------------------------------------------------------------------------------------------------------
+
+DataType	Size		Description
+byte		1 byte		Stores whole numbers from -128 to 127
+short		2 bytes		Stores whole numbers from -32,768 to 32,767
+int			4 bytes		Stores whole numbers from -2,147,483,648 to 2,147,483,647
+long		8 bytes		Stores whole numbers from -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807
+float		4 bytes		Stores fractional numbers. Sufficient for storing 6 to 7 decimal digits
+double		8 bytes		Stores fractional numbers. Sufficient for storing 15 decimal digits
+boolean		1 bit		Stores true or false values
+char		2 bytes		Stores a single character/letter or ASCII values

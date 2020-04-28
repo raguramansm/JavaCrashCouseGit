@@ -1,0 +1,6 @@
+1. Collection
+	- Collection of individual objects
+
+2. Collection Hierarchy - Refer the JPG image
+
+3. Differences - Refer the excel sheet

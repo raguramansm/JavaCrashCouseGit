@@ -1,0 +1,28 @@
+1) What is a constructor?
+	It's a block of code that initializes the newly created object.
+
+2) Must have properties of a constructor 
+	1. Constructor must have same name as class
+	2. Must not have explicit return type
+	3. Cannot be abstract, static, final and synchronized
+
+3) Types of constructors
+	1. Default constructor
+	2. No argument constructor
+	3. Parameterized constructor
+
+4) Default Constructor Explained
+	When we don't provide any constructor, compiler will provide one. 
+	We cannot see with naked eye, it will be inside the class.
+	Used to provide the default values the the objects like 0, Null depending on the data types.	
+
+5) No Arguments constructor Explained. Ex: public classname()
+	Arguments will not be there. It will allow us to write logic when object is created.
+	This is not a default constructor.
+
+6) Parameterized constructor Explained
+	Arguments will be there.
+	
+7) Constructor overloading
+
+8) Super keyword in Constructor - Works in inheritance.
