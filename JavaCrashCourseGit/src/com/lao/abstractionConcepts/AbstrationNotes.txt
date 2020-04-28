@@ -29,4 +29,3 @@
 	Process of binding data and methods into a single unit 
 	
 7. Updating the code in github
-Able to see the changes.
